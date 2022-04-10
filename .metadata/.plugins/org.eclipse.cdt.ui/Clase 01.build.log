@@ -1,0 +1,11 @@
+20:11:35 **** Incremental Build of configuration Debug for project Clase 01 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 01.o" "..\\src\\Clase 01.c" 
+..\src\Clase 01.c: In function 'main':
+..\src\Clase 01.c:52:22: warning: statement with no effect [-Wunused-value]
+  numeroPedidoUsuario +1;
+  ~~~~~~~~~~~~~~~~~~~~^~
+gcc -o "Clase 01.exe" "src\\Clase 01.o" 
+
+20:11:36 Build Finished. 0 errors, 1 warnings. (took 913ms)
+
