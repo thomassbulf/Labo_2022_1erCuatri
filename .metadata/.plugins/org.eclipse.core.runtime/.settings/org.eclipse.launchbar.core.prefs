@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Clase 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 02.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 03.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 04.exe,org.eclipse.launchbar.core.descriptorType.default\:TP1.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Clase 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 02.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 03.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 04.exe,org.eclipse.launchbar.core.descriptorType.default\:TP1.exe,org.eclipse.launchbar.core.descriptorType.default\:Clase 09.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Clase\ 01.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Clase\ 01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

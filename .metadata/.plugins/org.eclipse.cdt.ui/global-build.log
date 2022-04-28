@@ -1,5 +1,53 @@
-20:17:33 **** Rebuild of configuration Debug for project TP1 ****
+19:20:41 **** Incremental Build of configuration Debug for project Clase 09 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
-gcc -o TP1.exe "src\\TP1.o" 
-Info: Nothing to build for TP1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cliente.o" "..\\src\\Cliente.c" 
+..\src\Cliente.c: In function 'cl_imprimirUnCliente':
+..\src\Cliente.c:12:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Edad cliente %d, nombre cliente %s, nrocuenta %d", arrayCliente[1].edadCliente, arrayCliente[1].nombreCliente, arrayCliente[1].nroCuentaCliente);
+  ^~~~~~
+..\src\Cliente.c:12:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\Cliente.c:12:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\Cliente.c:12:61: error: 'arrayCliente' undeclared (first use in this function)
+  printf("Edad cliente %d, nombre cliente %s, nrocuenta %d", arrayCliente[1].edadCliente, arrayCliente[1].nombreCliente, arrayCliente[1].nroCuentaCliente);
+                                                             ^~~~~~~~~~~~
+..\src\Cliente.c:12:61: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Cliente.c: At top level:
+..\src\Cliente.c:16:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+..\src\Cliente.c: In function 'cl_imprimirUnCliente':
+..\src\Cliente.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:20:51 **** Incremental Build of configuration Debug for project Clase 09 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 09.o" "..\\src\\Clase 09.c" 
+..\src\Clase 09.c: In function 'main':
+..\src\Clase 09.c:43:61: error: 'arrayCliente' undeclared (first use in this function)
+  printf("Edad cliente %d, nombre cliente %s, nrocuenta %d", arrayCliente[1].edadCliente, arrayCliente[1].nombreCliente, arrayCliente[1].nroCuentaCliente);
+                                                             ^~~~~~~~~~~~
+..\src\Clase 09.c:43:61: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Clase 09.c:40:7: warning: unused variable 'emailClienteArray' [-Wunused-variable]
+  char emailClienteArray[100][10];
+       ^~~~~~~~~~~~~~~~~
+..\src\Clase 09.c:39:7: warning: unused variable 'apellidoClienteArray' [-Wunused-variable]
+  char apellidoClienteArray[100][10];
+       ^~~~~~~~~~~~~~~~~~~~
+..\src\Clase 09.c:33:10: warning: variable 'clienteUno' set but not used [-Wunused-but-set-variable]
+  Cliente clienteUno;
+          ^~~~~~~~~~
+..\src\Clase 09.c:31:6: warning: unused variable 'nroCuentaCliente' [-Wunused-variable]
+  int nroCuentaCliente;
+      ^~~~~~~~~~~~~~~~
+..\src\Clase 09.c:30:7: warning: unused variable 'emailCliente' [-Wunused-variable]
+  char emailCliente[10];
+       ^~~~~~~~~~~~
+..\src\Clase 09.c:29:7: warning: unused variable 'apellidoCliente' [-Wunused-variable]
+  char apellidoCliente[10];
+       ^~~~~~~~~~~~~~~
+..\src\Clase 09.c:28:7: warning: unused variable 'nombreCliente' [-Wunused-variable]
+  char nombreCliente[10];
+       ^~~~~~~~~~~~~
+..\src\Clase 09.c:27:6: warning: unused variable 'edadCliente' [-Wunused-variable]
+  int edadCliente;
+      ^~~~~~~~~~~

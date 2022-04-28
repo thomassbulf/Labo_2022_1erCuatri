@@ -1,1 +1,7 @@
-Info: Nothing to build for Clase 04
+18:58:55 **** Rebuild of configuration Debug for project Clase 04 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 04.o" "..\\src\\Clase 04.c" 
+gcc -o "Clase 04.exe" "src\\Clase 04.o" 
+
+18:58:56 Build Finished. 0 errors, 0 warnings. (took 469ms)
+
